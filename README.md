@@ -36,6 +36,7 @@ A API REST ficará acessível em `http://localhost:8080`.
 ### 3. Frontend (Vue 3 + Vuetify + Vite)
 Num novo terminal, instalar as dependências e iniciar o servidor de desenvolvimento:
 ```bash
+cp ./frontend/example.env ./frontend/.env
 cd frontend
 npm install
 npm run dev
